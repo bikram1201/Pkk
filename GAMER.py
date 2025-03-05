@@ -26,7 +26,7 @@ KEY_PRICES = {
     'day': 80,   # 80 Rs per day
     'week': 500  # 500 Rs per week
 }
-ADMIN_IDS = [2109683176,5045955482]
+ADMIN_IDS = [2109683176]
 BOT_TOKEN = "7160466488:AAH4CfboSHYoq7evGCpz-_L8tDN1NpUhZXk"
 thread_count = 500
 packet_size = 12
@@ -34,7 +34,7 @@ ADMIN_FILE = 'admin_data.json'
 last_attack_times = {}
 COOLDOWN_MINUTES = 3
 attack_in_progress = False  # Track if an attack is running
-ALLOWED_GROUP_ID = -1002291645443,-1002468094280  # Replace with your actual group ID
+ALLOWED_GROUP_ID = -1002291645443  # Replace with your actual group ID
 
 # Helper function to check if the message is from the allowed group
 def is_allowed_group(chat_id):
